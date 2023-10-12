@@ -3,6 +3,7 @@ public class Horse {
         private String name;
         private int age;
         private String color;
+        private String hair;
     
         // Constructor
         public Horse(String name, int age, String color) {
@@ -48,6 +49,7 @@ public class Horse {
             outputt=outputt +"Name: " + name;
             outputt=outputt +"Age: " + age + " years";
             outputt=outputt +"Color: " + color;
+            outputt=outputt +"hair: " + hair;
             return outputt;
         }
     }
