@@ -5,7 +5,6 @@ public class raceRabbit extends rabbit1{
         super(name, age);
         this.dexterity=dexterity;
         this.speed=speed;
-        System.out.println("created rabbit "+name+" " +age);
 }
       public void excersise(int excersise){
       speed=speed+excersise;

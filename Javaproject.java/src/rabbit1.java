@@ -1,18 +1,10 @@
-public class rabbit1 {
+public class rabbit1 implements Comparable {
     public String name;
-    public String age;
+    public int age;
 
-    public rabbit1(String string, int i) {
-    }
-
-    public class Rabbit {
-        private String name;
-        private int age;
-
-        public Rabbit(String name, int age) {
+        public rabbit1(String name, int age) {
             this.name = name;
             this.age = age;
-            System.out.println("created rabbit "+name+" " +age);
         }
     
         public String getName() {
@@ -26,5 +18,19 @@ public class rabbit1 {
         public String toString() {
             return "Rabbit{name='" + name + "', age=" + age + '}';
         }
-    }
+
+        @Override
+        public int compareTo(rabbit1 o) {
+            return o.age - age;
+        }
+
+        @Override
+        public int compareTo(Object o) {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'compareTo'");
+        }
+       
+        
 }
+         
+

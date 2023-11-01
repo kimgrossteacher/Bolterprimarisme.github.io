@@ -5,7 +5,7 @@ public class meatRabbit extends rabbit1  {
         super(name, age);
         this.feedtype=feedtype;
         this.weight=weight;
-        System.out.println("created rabbit "+name+" " +age);
+
 }
       public void feed(int feed){
       weight=weight+feed;
