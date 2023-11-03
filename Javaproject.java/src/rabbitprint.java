@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Comparator;
 
 public class rabbitprint {
@@ -16,7 +18,10 @@ public class rabbitprint {
         System.out.println(rabbit2);
         
     
-    
+        // prints out the fasty and fatty arays 
+        System.out.println(""); 
+        System.out.println("not sorting it yet");
+        System.out.println(""); 
         System.out.println(fasty);
         System.out.println(fatty);
         ArrayList rabbitlist=new ArrayList ();
@@ -29,6 +34,14 @@ public class rabbitprint {
             rabbit1=(rabbit1) rabbitlist.get(i);
             System.out.println(rabbit1);
     }
-    rabbitlist.sort();
+    System.out.println(""); 
+    Collections.sort(rabbitlist); 
+    System.out.println(""); 
+    System.out.println("sorting it");
+    System.out.println(""); 
+    for(int i=0;i<rabbitlist.size() ;i++) { 
+            rabbit1=(rabbit1) rabbitlist.get(i);
+            System.out.println(rabbit1);
+}
 }
 }

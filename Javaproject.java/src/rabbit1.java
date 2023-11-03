@@ -1,4 +1,4 @@
-public class rabbit1 implements Comparable {
+public class rabbit1 implements Comparable<rabbit1> {
     public String name;
     public int age;
 
@@ -21,16 +21,12 @@ public class rabbit1 implements Comparable {
 
         @Override
         public int compareTo(rabbit1 o) {
-            return o.age - age;
+            return o.getAge()-age;
         }
 
-        @Override
-        public int compareTo(Object o) {
-            // TODO Auto-generated method stub
-            throw new UnsupportedOperationException("Unimplemented method 'compareTo'");
         }
        
         
-}
+
          
 
