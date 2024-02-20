@@ -1,0 +1,35 @@
+User 1:
+Name: stephen
+Address: 10648 west skycrest st
+City: boise
+State: id
+Zip: 83713
+Phone Number: 986-200-5776
+User 2:
+Name: mom
+Address: 10648 west skycrest st
+City: Boise 
+State: ID
+Zip: 83713
+Phone Number: 631-871-5363
+User 3:
+Name: 
+Address: 
+City: 
+State: 
+Zip: Invalid input
+Phone Number: 
+User 4:
+Name: 
+Address: 
+City: 
+State: 
+Zip: Invalid input
+Phone Number: 
+User 5:
+Name: 
+Address: 
+City: 
+State: 
+Zip: Invalid input
+Phone Number: 
